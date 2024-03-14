@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #ccc;
+}
+
+h1{
+    background: linear-gradient(to left, #3494e6, #ec6ead) ;
+    color: #ddd9ce;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 48px;
+    font-variant: small-caps;
+    text-align: center;
+}
+.container{
+    border: 4px dotted rgb(230, 0, 0);
+    color: #100100;
+    margin: 2em 15%;
+    padding: 2.4em;
+    text-align: center;
+}
+
+.container h2{
+    margin-bottom: 1em;
+}
+
+button {
+    height: 2.4em;
+    width: 5.5em;
+    border: 4px solid #929292;
+    color: #050505;
+    font-size: 1.1em;
+    cursor: pointer;
+    font-variant: small-caps;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 3em;
+}
+
+.init-btn {
+    background-color: #7cfc00;
+}
+
+.pause-btn {
+    background-color: #ff0000;
+}
+
+.restart-btn {
+    background-color: #3494e6;
+}
